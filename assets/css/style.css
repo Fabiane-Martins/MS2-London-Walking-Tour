@@ -28,7 +28,7 @@ h1 {
     text-align: center;
 }
 
-/* Banner Containers */
+/* Banner Collout */
 
 .callout-container {
     height: 85vh;
@@ -47,11 +47,11 @@ h1 {
 
 }
 @keyframes hero-zoom{
-  from{transform: scale(1)
-  }
-  to{transform: scale(1.1)
-  }
-}
+    from{transform: scale(1)
+    }
+    to{transform: scale(1.1)
+    }
+    }
 
 .opaque-overlay {
     position: absolute;
@@ -111,11 +111,10 @@ p{
     text-align: center;
     padding-bottom: 20px;
 }
+/* Tours */
 
-/* Skills */
-
-#skills {
-    background: url(../images/contact.jpg);
+#tours {
+    background-color:#f8f9fa;;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -125,95 +124,69 @@ p{
     padding-bottom: 10px;
 }
 
-.skills-inner {
-    margin-bottom: 10%;
+#left-about{
+    padding-top: 30px;
+    width: 33%;
+    float: left;
 }
-
-.skill-circle {
-    display: inline-table;
-    margin-bottom: 55px;
-    justify-content: center;
-    display: flex;
+#right-about{
+    padding-top: 30px;
+    width: 33%;
+    float: right;
 }
-
-.arc1 {
-    width: 160px;
-    height: 160px;
-    background: #564F6F;
-    -webkit-transform-origin: -51% 91%;
-    margin-left: -35px;
-    margin-top: -53px;
-    -webkit-transform: translate(-64px, 50px);
-    -moz-transform: translate(-64px, 50px);
-    -o-transform: translate(-64px, 50px);
+#center-about{
+    width: 33%;
+    margin: 0 auto;
+}
+hr{
+    border-top: 1px solid #777777;
+    width: 100%;
+    margin: 5px 0;
+}
+.left-about-heading{
+    width: 50%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+.right-about-heading{
+    width: 50%;
+    float: leftt;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+.right-about-heading h2{
+    text-align: right;
+    }
+.left-about-heading h2{
+    text-align: left;
+}
+.right-about-heading p{
+    text-align: right;
+}
+.left-about-heading p{
+    text-align: left;
+}
+#circle-container{
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #cccccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
 
 }
-
-.arc2 {
-    margin-left: -115px;
-    width: 193px;
-    height: 177px;
-    background: #564F6F;
-    -webkit-transform: skew(55deg, 0deg);
-    -moz-transform: skew(55deg, 0deg);
-    -o-transform: skew(55deg, 0deg);
-    position: absolute;
-    -webkit-transition: all .5s linear;
-}
-
-#html-load2 {
-    margin-top: -137px;
-}
-.arc-wrapper {
-    width: 120px;
-    height: 120px;
-    border-radius: 150px;
-    background: #d3d3d3;
-    overflow: hidden;
-    left: 0px;
-    top: 50px;
-    position: absolute;
-}
-
-.arc-overlay {
-    width: 110px;
-    height: 110px;
-    background-color: #fafafa;
-    padding-left: 20px;
-    padding-top: 6px;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    line-height: 100px;
-    font-weight: 400;
-    text-shadow: 0 1px 0 #fff;
-    font-size: 22px;
-    border-radius: 100px;
-    position: absolute;
-    z-index: 5;
-    top: 55px;
-    left: 5px;
-}
-
-.arc-container {
-    position: relative;
-    height: 130px;
-    width: 130px;
-}
-
-/* Work History */
-
-#work-history {
-    background-color:#f8f9fa;
+#circle-cover-bg{
+    background: url('../img/banner2.jpg')no-repeat center center;
     height: 100%;
+    border-radius: 50%;
 }
 
-.work-experience {
-    margin-right: 5px;
-    margin-left: 5px;
-    padding: 5px;
-}
-
-/* FOOTER */
+/* Footer */
 
 footer {
     margin-top: 5rem;
@@ -234,136 +207,13 @@ small {
 }
 #social-links i {
     font-size: 1.5em;
-    color: red;
+    color:blue;
 }
 
-/*new*/
 
-.container-sm custom-wrapper{
-  height: 600px;
-  background-color: rgba(0, 0, 0, 0.3);
-}
 
-#left-about{
-  padding-top: 30px;
-  width: 33%;
-  float: left;
-}
-#right-about{
-  padding-top: 30px;
-  width: 33%;
-  float: right;
-}
-#center-about{
-  width: 33%;
-  margin: 0 auto;
-}
-hr{
-  border-top: 1px solid #777777;
-  width: 100%;
-  margin: 5px 0;
-}
-.left-about-heading{
-  width: 50%;
-  float: right;
-  line-height: 20px;
-  clear: both;
-  margin-bottom: 50px;
-}
-.right-about-heading{
-  width: 50%;
-  float: leftt;
-  line-height: 20px;
-  clear: both;
-  margin-bottom: 50px;
-}
-.right-about-heading h2{
-  text-align: right;
-}
-.right-about-heading p{
-  text-align: right;
-}
 
-#welcome {
-  margin: 20px 0;
-  text-align: center;
-  font-size: 280%;
-}
-#circle-container{
-  width: 300px;
-  height: 300px;
-  padding: 30px;
-  border-style: solid;
-  border-color: #cccccc;
-  border-width: 1px;
-  border-radius: 50%;
-  margin: 0 auto;
 
-}
-#circle-cover-bg{
-  background: url(http://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/video-mask.png)no-repeat center center;
-  height: 100%;
-  border-radius: 50%;
-}
-#times{background: url(http://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/dublin-city.png);
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-width: 100%;
-overflow: hidden}
 
-#times div{
-  color: #fafafa;
-  background-color: rgba(0, 0, 0, .6);
-  width: 19%;
-  height: 300px;
-  float: left;
-  padding: 30px 0 0 10px;
-  text-align: center;
-  margin: 2px;
 
-}
-#times h2{color: #fafafa}
 
-#footer {
-  height: 150px;
-}
- 
-.social-networks{
-  text-align: center;
-}
-.social-networks li {
-  display:inline;
-}
-.social-networks i {
-  font-size: 160%;
-  margin: 1%;
-  padding: 5%;
-  color: #777777;
-}
-#photo {
-  clear: both;
-  line-height: 0;
-  column-count: 3;
-  column-gap: 0px;
-}
-#photo img {
-  width: 100%;
-}
-
-#circle-container{
-  width: 300px;
-  height: 300px;
-  padding: 30px;
-  border-style: solid;
-  border-color: #cccccc;
-  border-width: 1px;
-  border-radius: 50%;
-  margin: 0 auto;
-
-}
-#circle-cover-bg{
-  background: url('../img/banner2.jpg')no-repeat center center;
-  height: 100%;
-  border-radius: 50%;
-}

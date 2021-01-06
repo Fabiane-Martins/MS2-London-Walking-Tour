@@ -16,7 +16,7 @@
 
     <body>
 
-        <!-- NAVIDATION --> 
+<!-- NAVIDATION --> 
 
         <header>
             <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
@@ -43,7 +43,7 @@
         <div class="row">
             <div class="col-12">
                 <section class="callout jumbotron text-left">
-               
+            
                     <h2 class="jumbotron-header">London Walks</h2>
 
                     <hr class="block-divider block-divider--orange">
@@ -69,45 +69,94 @@
 
 <!-- TOURS -->
 
-    <div class="container-sm custom-wrapper" id="tours">
-        <div class="text-center"><h1>Tours You've Got To Try</h1></div>
+    <div class="container-fluid custom-wrapper" id="tours">
+            <div class="text-center"><h1>Tours You've Got To Try</h1></div>
 
-        <hr class="block-divider block-divider--orange">
-    <br/>
+            <hr class="block-divider block-divider--orange">
+        <br/>
 
-        <div id="left-about">
-        <div class="left-about-heading">
-            <h2>Dicken's London Life</h2>
-            <hr>
-            <p>This walk takes place interely in central London taking you to 18th centure lifestyle. </p>
-        </div>
-        <div class="left-about-heading">
-            <h2>The Royal Gardens </h2>
-            <hr>
-            <p>The Royal Gardens is a unique part of London, be prepared to be delighted by the beauty of Buckingham Palace.</p>
-        </div>
-        </div>
-        <div id="right-about">
-        <div class="right-about-heading">
-        <h2>British Food</h2>
-        <hr>
-        <p>There is something especial about brunch, this tour will take you to the best London food market.</p>
-        </div>
-        <div class="right-about-heading">
-            <h2>The Maritime Times</h2>
-            <hr>
-            <p>Greenwich is a UNESCO site and one to not be missed, a place full a history a misteries.</p>
-        </div>
-        </div>
-
-        <div id="center-about">
-            <div id="circle-container">
-            <div id="circle-cover-bg"></div>
+            <div id="left-about">
+                <div class="left-about-heading">
+                    <h2>Dicken's London Life</h2>
+                    <hr>
+                    <p>This walk takes place interely in central London taking you to 18th centure lifestyle. </p>
+                </div>
+                <div class="left-about-heading">
+                    <h2>The Royal Gardens </h2>
+                    <hr>
+                    <p>The Royal Gardens is a unique part of London, be prepared to be delighted by the beauty of Buckingham Palace.</p>
+                </div>
             </div>
-        </div>
-    </div>
+            <div id="right-about">
+                <div class="right-about-heading">
+                    <h2>British Food</h2>
+                    <hr>
+                    <p>There is something especial about brunch, this tour will take you to the best London food market.</p>
+                </div>
+                <div class="right-about-heading">
+                    <h2>The Maritime Times</h2>
+                    <hr>
+                    <p>Greenwich is a UNESCO site and one to not be missed, a place full a history a misteries.</p>
+                </div>
+            </div>
 
+            <div id="center-about">
+                <div id="circle-container">
+                <div id="circle-cover-bg"></div>
+                </div>
+            </div>
+    </div>
+    
+    <!-- Contact Form -->
+
+    <article class="container-sm custom-wrapper" id="contact-form">
+        <form action="https://formdump.codeinstitute.net/" method="post">
+            <fieldset>
+                <legend class="text-center"><h1>Contact Me</h1></legend>
+
+                <hr class="block-divider block-divider--orange">
+
+                    <div class="form-group md-1">
+                        <label for="name">Name</label>
+                        <input class="form-control" id="name" placeholder="Enter name" required>
+                    </div>
+                    <div class="form-group mb-1">
+                        <label for="email">Email address</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter email" required>
+                    </div>
+                    <div class="form-group mb-1">
+                            <label for="textarea">Message</label>
+                            <textarea class="form-control" id="textarea" rows="5" placeholder="Would you like to book a tour?" required></textarea>
+                    </div>
+                    <div class="container-fluid">
+                        <div class="row justify-content-center mt-3">
+                        <button type="submit" class="btn btn-info btn-lg btn-submit">Submit</button>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+    </article>  
     <footer>
+        <!-- Social links -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 text-center" id="social-links">
+                <h5>Let's Connect!</h5>
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <a target="_blank" href="https://www.linkedin.com/in/martinsfabiane/">
+                                <i class="fab fa-linkedin" aria-hidden="true"></i>
+                                <span class="sr-only">Linkedin</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a target="_blank" href="https://github.com/Fabiane-Martins">
+                                <i class="fab fa-github" aria-hidden="true"></i>
+                                <span class="sr-only">Github</span>
+                            </a>
+                        </li>
+                    </ul>
+
 
         <!-- BOOTSTRAP SCRIPT -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
