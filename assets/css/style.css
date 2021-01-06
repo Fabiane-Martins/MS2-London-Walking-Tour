@@ -46,6 +46,12 @@ h1 {
     animation-fill-mode: forwards;
 
 }
+@keyframes hero-zoom{
+  from{transform: scale(1)
+  }
+  to{transform: scale(1.1)
+  }
+}
 
 .opaque-overlay {
     position: absolute;
@@ -96,6 +102,10 @@ h1 {
 
 /* About */
 
+h2{
+    text-align: center;
+    font-style: italic;
+}
 p{
     padding-top: 22px;
     text-align: center;
@@ -227,7 +237,119 @@ small {
     color: red;
 }
 
+/*new*/
 
+.container-sm custom-wrapper{
+  height: 600px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+#left-about{
+  padding-top: 30px;
+  width: 33%;
+  float: left;
+}
+#right-about{
+  padding-top: 30px;
+  width: 33%;
+  float: right;
+}
+#center-about{
+  width: 33%;
+  margin: 0 auto;
+}
+hr{
+  border-top: 1px solid #777777;
+  width: 100%;
+  margin: 5px 0;
+}
+.left-about-heading{
+  width: 50%;
+  float: right;
+  line-height: 20px;
+  clear: both;
+  margin-bottom: 50px;
+}
+.right-about-heading{
+  width: 50%;
+  float: leftt;
+  line-height: 20px;
+  clear: both;
+  margin-bottom: 50px;
+}
+.right-about-heading h2{
+  text-align: right;
+}
+.right-about-heading p{
+  text-align: right;
+}
+
+#welcome {
+  margin: 20px 0;
+  text-align: center;
+  font-size: 280%;
+}
+#circle-container{
+  width: 300px;
+  height: 300px;
+  padding: 30px;
+  border-style: solid;
+  border-color: #cccccc;
+  border-width: 1px;
+  border-radius: 50%;
+  margin: 0 auto;
+
+}
+#circle-cover-bg{
+  background: url(http://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/video-mask.png)no-repeat center center;
+  height: 100%;
+  border-radius: 50%;
+}
+#times{background: url(http://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/dublin-city.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+width: 100%;
+overflow: hidden}
+
+#times div{
+  color: #fafafa;
+  background-color: rgba(0, 0, 0, .6);
+  width: 19%;
+  height: 300px;
+  float: left;
+  padding: 30px 0 0 10px;
+  text-align: center;
+  margin: 2px;
+
+}
+#times h2{color: #fafafa}
+
+#footer {
+  height: 150px;
+}
+ 
+.social-networks{
+  text-align: center;
+}
+.social-networks li {
+  display:inline;
+}
+.social-networks i {
+  font-size: 160%;
+  margin: 1%;
+  padding: 5%;
+  color: #777777;
+}
+#photo {
+  clear: both;
+  line-height: 0;
+  column-count: 3;
+  column-gap: 0px;
+}
+#photo img {
+  width: 100%;
+}
 
 #circle-container{
   width: 300px;
