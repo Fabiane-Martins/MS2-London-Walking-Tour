@@ -216,4 +216,7 @@ small {
 
 
 
-
+.btn {
+    background-color: blue;
+    border-color: blue;
+}
