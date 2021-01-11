@@ -20,6 +20,7 @@ body {
 	line-height: 30px;
 	color: black;
     margin: 0;
+    background-image: url(assets/img/10263.jpg);
 }
 
 h1 {
@@ -188,15 +189,19 @@ hr{
 }
 /*-------CONTACT-----------*/
 
-#contact-form {
-    background-attachment: fixed;
-    background-image: url('assets/img/banne3.jpg');
-    background-position: left;
+#contact {
+    background: url(assets/img/10263.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
-    padding-bottom: 100px;
-    padding-top: 42px;
-    text-align: left;
-    margin-bottom: 30px;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 10px;
+}
+.container-sm {
+  background-color: var(--main-bg-opaque);
+  background-size: cover;
 }
 
 
@@ -230,3 +235,181 @@ small {
     border-color: blue;
 }
 
+/*---------------------------------TOUR PAGE-----------------------------*/
+
+#tour-page {
+    background-attachment: fixed;
+    background-image: url(assets/img/banner3.jpg);
+
+}
+.content {
+    padding-top: 60px;
+}
+
+.heading {
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.heading-text {
+    padding-top: 20px;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    color:black;
+
+}
+.wrapper-loc,
+.wrapper {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.places {
+    margin-top: 1rem;
+    margin-right: 40px;
+    border: 3px solid red;
+    width: 100%;
+    height: auto;
+}
+
+.place-top-bg {
+    position: relative;
+    height: 70px;
+    border-bottom-left-radius: 50% 20%;
+    border-bottom-right-radius: 50% 20%;
+}
+
+.place-header {
+    margin: 0;
+    padding: 20px 0;
+    font: 20px 'Lato', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.place-top-bg h3 {
+    color: black;
+}
+
+.place-text {
+    font-size: 12px;
+    padding: 5px 10px;
+    margin-left: 10px;
+    margin-bottom: 0;
+    font-family: "Lato", sans-serif;
+}
+
+.place-text i {
+    font-size: 14px;
+    color: black;
+}
+
+.fa-envelope:before {
+    margin-right: 10px;
+}
+.fa-map-marker-alt:before {
+    margin-right: 10px;
+}
+.fa-coffee:before {
+    margin-right: 10px;
+}
+
+
+/*-------LOCATIONS BUTTONS---------*/
+
+.contact-details {
+    color: black;
+    font-weight: 600;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.contact-details:hover,
+.contact-details:focus {
+    color: #763300;
+    transition: all 0.2s ease-in;
+}
+
+.location-button {
+    display: block;
+    padding: 0.35em 1.2em;
+    text-decoration: none;
+    color:white;
+    border: solid 1px blue;
+    font-weight: 400;
+    margin: 10px auto;
+    background-color:blue;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+}
+
+.location-button:hover {
+    color: white;
+    background-color: grey;
+    text-decoration: none;
+}
+
+button:focus {
+    outline: none;
+    color: white;
+}
+
+/*-------MAP---------*/
+
+#map {
+    width: auto;
+    height: 98%;
+    margin-top: 1rem;
+}
+
+.popup-header {
+    color: #763300;
+    text-transform: uppercase;
+    margin: 0 auto 8px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: 600;
+}
+
+.popup-content {
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    padding: 5px 5px;
+    margin-bottom: 8px;
+    line-height: 1.7;
+    text-align: center;
+}
+.popup-link-promo,
+.popup-link {
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    padding: 0 5px;
+    color: #5e5553;
+    text-decoration: none;
+    font-weight: 600;
+    display: block;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+}
+
+.popup-link-promo {
+    display: inline;
+    padding: 0;
+}
+
+.popup-link-promo:hover,
+.popup-link:hover {
+    text-decoration: none;
+    color: #763300
+}
+
+.popup-new-promo {
+    text-transform: uppercase;
+    color: red;
+    font-family: "Lato", sans-serif;
+}
