@@ -12,6 +12,16 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
         <link rel="stylesheet" href="assets/css/style.css">
+
+        <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+        </script>
+        <script type="text/javascript">
+        (function(){
+            emailjs.init("user_BoUJ1ejHb5ZG7B15ZYLtd");
+            
+        })();
+        </script>
     </head>
 
     <body>
@@ -20,82 +30,53 @@
 
         <header>
             <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-                <a class="navbar-brand" href="index.html">London Walking Tour</a>
+                <a class="navbar-brand" href="index.html">London Walking Tours</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav ml-auto" data-toggle="collapse" data-target="#navbarNavAltMarkup">
-                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="#about">About </a>
-
-                  
-                    <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tour</a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Dicken's Tour</a>
-          <a class="dropdown-item" href="#">Food Tour</a>
-          <a class="dropdown-item" href="gardens.html">Gardens Tour</a>
-          <a class="dropdown-item" href="#">Maritime Tour</a>
-        </div>
-      </li>
-
-                    <a class="nav-item nav-link" href="#contact-form">Contact</a>
-                </div>
+                    <div class="navbar-nav ml-auto" data-toggle="collapse" data-target="#navbarNavAltMarkup">
+                        <a class="nav-item nav-link active" href="#home">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link" href="#about">About </a>
+                        <a class="nav-item nav-link" href="tour.html">Tour </a>
+                        <a class="nav-item nav-link" href="contact.html">Contact</a>
+                    </div>
                 </div>
             </nav>
         </header>
 
 <!-- MAIN BODY -->
 
-            <!-- Callout -->
-    <div class="container-fluid callout-container">
-        <div class="opaque-overlay">&nbsp;</div>
-        <div class="row">
-            <div class="col-12">
-                <section class="callout jumbotron text-left">
-            
-                    <h2 class="jumbotron-header">London Walks</h2>
-
-                    <hr class="block-divider block-divider--orange">
-                
-                    <h3> London's Best Guided Walking Tours</h3>
-                
-                </section>
-            </div>
-        </div>
-    </div>
-
     <!-- Contact Form -->
 
     <article class="container-sm custom-wrapper" id="contact-form">
-        <form action="https://formdump.codeinstitute.net/" method="post">
+        
             <fieldset>
                 <legend class="text-center"><h1>Contact Me</h1></legend>
 
                 <hr class="block-divider block-divider--orange">
 
                     <div class="form-group md-1">
-                        <label for="name">Name</label>
-                        <input class="form-control" id="name" placeholder="Enter name" required>
-                    </div>
-                    <div class="form-group mb-1">
-                        <label for="email">Email address</label>
-                        <input type="email" class="form-control" id="email" placeholder="Enter email" required>
-                    </div>
-                    <div class="form-group mb-1">
-                            <label for="textarea">Message</label>
-                            <textarea class="form-control" id="textarea" rows="5" placeholder="Would you like to book a tour?" required></textarea>
-                    </div>
-                    <div class="container-fluid">
-                        <div class="row justify-content-center mt-3">
-                        <button type="submit" class="btn btn-info btn-lg btn-submit">Submit</button>
-                        </div>
-                    </div>
-                </fieldset>
-            </form>
+
+
+            <div class="center-form">
+                <form onsubmit="return sendMail(this);">
+                    <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
+                    <br/>
+                    <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
+                    <br>
+                    <textarea rows="5" name="projectsummary" class="form-control" id="message" placeholder="Project Description" required></textarea>
+                    <br/>
+                    <button type="submit" class="btn btn-secondary center-block">Send Project Request</button>
+                </form>
+            </div>  
+                    
+            </fieldset>
+            
     </article>  
-    <footer>
+
+
+     <footer>
         <!-- Social links -->
     <div class="container-fluid">
         <div class="row">
@@ -115,16 +96,14 @@
                             </a>
                         </li>
                     </ul>
+    </footer>
 
-
+<script src="assets/js/emails.js"></script>
         <!-- BOOTSTRAP SCRIPT -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-    </footer>
-
-  
 </body>
 
 </html>
