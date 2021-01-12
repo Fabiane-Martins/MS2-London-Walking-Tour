@@ -199,10 +199,7 @@ hr{
     position: relative;
     padding-bottom: 10px;
 }
-.container-sm {
-  background-color: var(--main-bg-opaque);
-  background-size: cover;
-}
+
 
 
 
