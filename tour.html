@@ -26,8 +26,8 @@
                 </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ml-auto" data-toggle="collapse" data-target="#navbarNavAltMarkup">
-                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="#about">About </a>
+                    <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="index.html#about">About </a>
                     <a class="nav-item nav-link" href="contact.html">Contact</a>
                 </div>
             </div>
@@ -35,8 +35,8 @@
     </header>
 
 <!-- MAIN BODY -->
-           <!-- Tours -->
-    <div class= "container-fluid custom-wrapper" id="tours">
+        <!-- Tours -->
+    <div class= "container-fluid custom-wrapper" id="tour-page">
             <div class="row">
                 <div class="container">  
                     <div class="text-center"><h1>Find your Tour</h1></div>
@@ -44,9 +44,6 @@
                     
                 </div>
             </div>  
-     
-           
-    
             <div class="box1 py-3">
                 <div class="row">
                     <div class="col-12 col-sm-6 col-md-6 col-lg-6">
@@ -57,7 +54,7 @@
                                 <div class="details">
                                     <p class="place-text">
                                         <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
-                                        We'll meet at Farringdon Station main entance. Walk duration 2 hours and 45 minutes.
+                                        We'll meet at Farringdon Station main entance. Walk duration is 2 hours and 30 minutes.
                                     </p>
                                     <p class="place-text">
                                         <i class="fa fa-calendar" aria-hidden="true"></i>
@@ -83,16 +80,16 @@
                     <div class="col-12 col-sm-6 col-md-6 col-lg-6">
                         <div class="places">
                             <div class="place-top-bg">
-                                <h3 class="place-header">Dicken's London Life</h3>
+                                <h3 class="place-header">British Food</h3>
                             </div>
                                 <div class="details">
                                     <p class="place-text">
                                         <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
-                                        We'll meet at Farringdon Station main entance. Walk duration 2 hours and 45 minutes.
+                                        We'll meet at London Bridge, 8 Southwark Street. Walk duration is 3 hours and 15 minutes. 
                                     </p>
                                     <p class="place-text">
                                         <i class="fa fa-calendar" aria-hidden="true"></i>
-                                        Wednesdays at 11am
+                                        Fridays at 11am
                                     </p>
                                     <p class="place-text">
                                         <i class="fa fa-phone-square" aria-hidden="true"></i>
@@ -117,16 +114,16 @@
                     <div class="col-12 col-sm-6 col-md-6 col-lg-6">
                         <div class="places">
                             <div class="place-top-bg">
-                                <h3 class="place-header">Dicken's London Life</h3>
+                                <h3 class="place-header">The Royal Gardens</h3>
                             </div>
                                 <div class="details">
                                     <p class="place-text">
                                         <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
-                                        We'll meet at Farringdon Station main entance. Walk duration 2 hours and 45 minutes.
+                                        We'll meet at Traffalger Square in front of the lions. Walk duration 2 hours and 45 minutes.
                                     </p>
                                     <p class="place-text">
                                         <i class="fa fa-calendar" aria-hidden="true"></i>
-                                        Wednesdays at 11am
+                                        Thursdays at 11am
                                     </p>
                                     <p class="place-text">
                                         <i class="fa fa-phone-square" aria-hidden="true"></i>
@@ -148,16 +145,16 @@
                     <div class="col-12 col-sm-6 col-md-6 col-lg-6">
                         <div class="places">
                             <div class="place-top-bg">
-                                <h3 class="place-header">Dicken's London Life</h3>
+                                <h3 class="place-header">The Maritime Times</h3>
                             </div>
                                 <div class="details">
                                     <p class="place-text">
                                         <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
-                                        We'll meet at Farringdon Station main entance. Walk duration 2 hours and 45 minutes.
+                                        We'll meet at Greenwich Station main entance. Walk duration 2 hours and 45 minutes.
                                     </p>
                                     <p class="place-text">
                                         <i class="fa fa-calendar" aria-hidden="true"></i>
-                                        Wednesdays at 11am
+                                        Saturdays at 11am
                                     </p>
                                     <p class="place-text">
                                         <i class="fa fa-phone-square" aria-hidden="true"></i>
@@ -177,9 +174,13 @@
                     </div>
                 </div>
             </div>
-    </div>    
-
-
+        
+        <!-- Map -->
+       
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                <div id="map"></div>
+            </div> 
+        
     
     <footer>
         <!-- Social links -->
@@ -201,16 +202,31 @@
                             </a>
                         </li>
                     </ul>
-
+            </div>
+        </div>
+    </div>
+    </footer>
 
         <!-- BOOTSTRAP SCRIPT -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-    </footer>
+<script>
+        function initMap() {
+            var map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 7,
+                center: {
+                    lat: 51.5285578,
+                    lng: -0.2420231
+                }
+            });
+        }
+    </script>
+<script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIBVxuksdFHfMlLDzSz6yk7lxg1VAOezc&callback=initMap"></script>
 
-  
+    
 </body>
 
 </html>
