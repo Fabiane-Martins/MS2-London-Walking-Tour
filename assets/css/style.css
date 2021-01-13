@@ -334,6 +334,17 @@ button:focus {
     padding-top: 15px;
 }
 
+/* Video */
+
+.cam-row {
+    justify-content: center;
+}
+
+.cam-contain {
+    display: flex;
+    justify-content: center;
+  
+}
 /*--------------------------------- FOOTER -----------------------------*/
 
 footer {
