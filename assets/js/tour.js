@@ -38,22 +38,4 @@ function initMap() {
         }
 
 
-        //Zoom a location by clicking on external button
-$(".location-button").click(function() {
-  map.setCenter(new google.maps.LatLng(this.dataset.lat, this.dataset.lng));
-  map.setZoom(15);
-  });  
-
-  let infowindow = new google.maps.InfoWindow({});
-
-//Add markers on map according the information in locations array
-  let marker, count;
-  let bounds = new google.maps.LatLngBounds();
-  for (count = 0; count<locations.length; count++) {
-       marker = new google.maps.Marker ({
-       position: new google.maps.LatLng(locations[count][1], locations[count][2]),
-       map: map,
-       animation: google.maps.Animation.DROP
-  });
-
-bounds.extend(marker.getPosition());
+       
