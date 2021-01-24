@@ -38,4 +38,10 @@ function initMap() {
         }
 
 
-       
+       //Zoom a location by clicking on external button
+$(".location-button").click(function() {
+  map.setCenter(new google.maps.LatLng(this.dataset.lat, this.dataset.lng));
+  map.setZoom(15);
+  });  
+
+  let infowindow = new google.maps.InfoWindow({});
