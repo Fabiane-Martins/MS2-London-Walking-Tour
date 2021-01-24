@@ -45,3 +45,27 @@ $(".location-button").click(function() {
   });  
 
   let infowindow = new google.maps.InfoWindow({});
+
+  //Add markers on map according the information in locations array
+  let marker, count;
+  let bounds = new google.maps.LatLngBounds();
+  for (count = 0; count<locations.length; count++) {
+       marker = new google.maps.Marker ({
+       position: new google.maps.LatLng(locations[count][1], locations[count][2]),
+       map: map,
+       animation: google.maps.Animation.DROP
+  });
+
+bounds.extend(marker.getPosition());
+
+//Pop up an infowindow after clicking on marker
+google.maps.event.addListener(marker, 'click', (function (marker, count) {
+      return function () {
+        infowindow.setContent(locations[count][0]);
+        infowindow.open(map, marker);
+      }
+    })(marker, count));
+  }
+map.fitBounds(bounds);
+  
+}
