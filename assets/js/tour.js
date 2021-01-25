@@ -35,15 +35,15 @@ function initMap() {
             var markerCluster = new MarkerClusterer(map, markers, {
                 imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
             });
+            $(".location-button").click(function() {
+  map.setCenter(new google.maps.LatLng(this.dataset.lat, this.dataset.lng));
+  map.setZoom(15);
+  });  
         }
 
 
        //Zoom a location by clicking on external button
-$(".location-button").click(function() {
-  map.setCenter(new google.maps.LatLng(this.dataset.lat, this.dataset.lng));
-  map.setZoom(15);
-  });  
 
-  var marker = new google.maps.Marker({});
+
 
   
