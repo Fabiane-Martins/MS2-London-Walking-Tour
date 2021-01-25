@@ -14,8 +14,8 @@ function initMap() {
                 lat: 51.5205538,
                 lng: -0.1082319
             }, {
-                lat: 51.5057001,
-                lng: -0.0934528
+                lat: 51.5049014,
+                lng: -0.0934472
             },
             {
                 lat: 51.50809,
@@ -35,10 +35,11 @@ function initMap() {
             var markerCluster = new MarkerClusterer(map, markers, {
                 imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
             });
+
             $(".location-button").click(function() {
-  map.setCenter(new google.maps.LatLng(this.dataset.lat, this.dataset.lng));
-  map.setZoom(15);
-  });  
+            map.setCenter(new google.maps.LatLng(this.dataset.lat, this.dataset.lng));
+            map.setZoom(15);
+            });  
         }
 
 
