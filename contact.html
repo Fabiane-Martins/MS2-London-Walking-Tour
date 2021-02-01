@@ -21,6 +21,7 @@
 
         <header>
             <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+                <img src="assets/img/tour-guide.png" id="logo">
                 <a class="navbar-brand" href="index.html">London Walking Tours</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -37,30 +38,62 @@
 
 <!-- MAIN BODY -->
 
+    <!-- Tickets Type -->
+
+    <section class="container-sm custom-wrapper">
+        <div class="row" id="tour-type">
+            <div class="container-fluid">
+                <legend class="text-center"><h1>Book with confidence</h1></legend>
+                    <hr class="block-divider block-divider--orange">
+            </div>
+        </div>
+
+        <div class="row" id="offer-type">
+            <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+                <div class="ticket-type">
+                    <h3>Private Tours</h3>
+                    <p> Whether you’re after a full day or a half-day a private walking tour is tailored to your interests and needs.</p>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+                <div class="ticket-type">
+                    <h3>Family Pass</h3>
+                    <p>Ideal for all the family - 20% off for 5 or more tickets</p>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+                <div class="ticket-type">
+                    <h3>Single Pass</h3>
+                    <p>All our tours cost £15 adult or £10 kids and students</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Contact Form -->
 
-        <section class="container-fluid custom-wrappe" >
-            <div class="container-sm custom-wrapper" id="contact">
-            
+        <section class="container-sm" id="contact">
+            <div class="row">
+                <div class="container-sm">
                     <legend class="text-center"><h1>Contact Us</h1></legend>
-                        <hr class="block-divider block-divider--orange">
+                    <hr class="block-divider block-divider--orange">
 
-                <div class="form-group md-1">
-
-                    <div class="center-form">
-                        <form onsubmit="return sendMail(this);">
-                            <label for="name">First Name:</label>
-                            <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
-                            <br/>
-                            <label for="emailaddress">Email Address:</label>
-                            <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
-                            <br>
-                            <label for="projectsummary">Would you like to book a tour with us?</label>
-                            <textarea rows="5" name="projectsummary" class="form-control" id="message" placeholder="Message" required></textarea>
-                            <br/>
-                            <button type="submit" class="btn btn-secondary center-block">Submit</button>
-                        </form>
-                    </div>  
+                        <div class="form-group md-1">
+                        
+                                <form id="contactForm" onsubmit="return sendMail(this);">
+                                    <label for="name">Full Name:</label>
+                                    <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
+                                    <br/>
+                                    <label for="emailaddress">Email Address:</label>
+                                    <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
+                                    <br>
+                                    <label for="projectsummary">Get in touch to book a tour with us.</label>
+                                    <textarea rows="5" name="projectsummary" class="form-control" id="message" placeholder="Message" required></textarea>
+                                    <br/>
+                                    <button type="submit" class="btn btn-secondary center-block">Submit</button>
+                                </form>
+                            
+                        </div>
                 </div>
             </div>  
         </section>
@@ -90,14 +123,15 @@
     </div>
     </footer>
 
-
         <!-- BOOTSTRAP SCRIPT -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
         <!-- EMAIL SCRIPT -->
-<script src="assets/js/emails.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+<script src="assets/js/emails.js"></script>
+
 
 </body>
 

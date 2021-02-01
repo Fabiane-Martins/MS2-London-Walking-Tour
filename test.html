@@ -11,7 +11,7 @@
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
-        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/test.css">
 
     
     </head>
@@ -21,9 +21,8 @@
 <!-- NAVIDATION --> 
 
         <header>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="navbar">
-                <img src="assets/img/tour-guide.png" id="logo">
-                <a class="navbar-brand" href="index.html"> London Walking Tours</a>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+                <a class="navbar-brand" href="index.html">London Walking Tours</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -32,7 +31,6 @@
                         <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
                         <a class="nav-item nav-link" href="tour.html">Tour </a>
                         <a class="nav-item nav-link" href="contact.html">Contact</a>
-                        <a class="nav-item nav-link" href="test.html">Test</a>
                     </div>
                 </div>
             </nav>
@@ -41,26 +39,45 @@
 <!-- MAIN BODY -->
 
             <!-- Callout -->
-    <div class="container-fluid callout-container">
-        <div class="opaque-overlay">&nbsp;</div>
-        <div class="row">
-            <div class="col-12">
-                <section class="callout jumbotron text-left">
-            
-                    <h2 class="jumbotron-header">London Walks</h2>
+    <div class="container-fluid">
+        <div id="demo" class="carousel slide" data-ride="carousel">
 
-                    <hr class="block-divider block-divider--orange">
-                
-                    <h3> London's Best Guided Walking Tours</h3>
-                
-                </section>
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img src="assets/img/banner1.jpg" alt="Los Angeles">
+                </div>
+                <div class="carousel-item">
+                <img src="assets/img/banner2.jpg" alt="Chicago">
+                </div>
+                <div class="carousel-item">
+                <img src="assets/img/banner3.jpg" alt="New York">
+                </div>
             </div>
+
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+
         </div>
     </div>
+        
+
 
 <!-- ABOUT -->
 
-    <div class="container-sm custom-wrapper" id="about">
+    <div class="container-sm custom-wrapper" id="about" data-aos="fade-right">
         <div class="text-center">
             <h1>About Us</h1>
         </div>
@@ -68,7 +85,7 @@
         <hr class="block-divider block-divider--orange">
         <br/>
             <h2>Someone once said, "Tired of London Tired of Life"</h2>
-            <p>London covers over 600 square miles and is home to more then seven million people. Our city is one of the most creative and diverse in the world, containing art, literature and history of mankind. However, it is fair to say that more often than not we forget how lucky we are to be here.</p>
+            <p id="toggle">London covers over 600 square miles and is home to more then seven million people. Our city is one of the most creative and diverse in the world, containing art, literature and history of mankind. However, it is fair to say that more often than not we forget how lucky we are to be here.</p>
             <p>We at London Walking Tours, have set ourselves a challenge to help you discover London's hidden gems, from sight-seeing to food markets to picturesque tours you are sure to enjoy it and look at London with new eyes. </p>
     </div>
     
@@ -144,6 +161,16 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+ <!--Slide effect-->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+        <script src="assets/js/script.js"></script>
+<script>
+    $( document ).click(function() {
+  $( "#toggle" ).toggle( "slide" );
+});
+</sc
+</script>
 
 </body>
 
