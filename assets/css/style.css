@@ -27,6 +27,9 @@ h1 {
     padding-bottom: 10px;
     text-align: center;
 }
+h2 {
+    font-size: 1.2rem;
+}
 
 /* Sites Colours */
 
@@ -56,15 +59,22 @@ h1 {
     background-color:var(--accent-color);
     text-align: center;
 }
-/*--------------------------------- NAVBAR MEDIA QUERIES -----------------------------*/
+/*--------------------------------- MEDIA QUERIES -----------------------------*/
 
 /* Mobile Devices */
 
 @media screen and (max-width: 600px){
     #navbar {
     width: 100%;
+    }
 }
+
+@media screen and (max-width: 600px){
+    body {
+    width: 100%;
+    }
 }
+
 /*--------------------------------- BANNER COLLOUT -----------------------------*/
 
 .callout-container {
@@ -147,21 +157,17 @@ h1 {
 /*--------------------------------- ABOUT -----------------------------*/
 
 #about {
-    height: 100%;
-    margin: 2rem;
+    padding-bottom: 30px;
 }
 
 h2{
     text-align: center;
     font-style: italic;
+    padding-bottom: 20px;
 }
+
 p{
-    margin: 0;
-    padding: 0;
-    padding-top: 22px;
     text-align: center;
-    font-size: 1rem;
-    
 }
 
 /*--------------------------------- TOURS -----------------------------*/
@@ -307,18 +313,12 @@ hr{
 .place-header {
     margin: 0;
     padding: 20px 0;
-    font: 20px 'Lora', sans-serif;
     text-align: center;
     text-transform: uppercase;
-    font-weight: 400;
-}
-
-.place-top-bg h3 {
-    color: black;
 }
 
 .place-text {
-    font-size: 12px;
+    font-size: 0.8rem;
     padding: 5px 10px;
     margin-left: 10px;
     margin-bottom: 0;
@@ -383,7 +383,8 @@ button:focus {
 /* Map */
 
 #map {
-    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+    border-width:5px ;
     width: 100%;;
     height: 500px;
 }
@@ -396,14 +397,17 @@ button:focus {
     padding: 25px;
 }
 .ticket-type {
-    border: #777777 solid 2px;
+    margin: 10px;
     padding: 15px;
-    height: 100%;
+    border: #777777 solid 2px;
+    height: 90%;
     text-align: center;
-    padding-top: 20px;
-    margin-bottom: 25px;
+    
 }
-
+.ticket-type p {
+    font-size: 0.8rem;
+    line-height: 20px;
+}
 /*--------------------------------- CONTACT -----------------------------*/
 
 #contact {
