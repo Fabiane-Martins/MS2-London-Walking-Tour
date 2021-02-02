@@ -5,9 +5,11 @@
 /*---------------------------------GENERAL-----------------------------*/
 
 * {
-	margin: 0;
-	padding: 0;
+    margin: 0;
     border: 0;
+	padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
@@ -18,12 +20,12 @@ body {
 	line-height: 30px;
     color: black;
     height: 100%;
-    background-image: url(assets/img/cpm-londonvectro-bg.jpg);
-    /*CREDIT: Background Image
-  https://www.vecteezy.com/vector-art/136434-landmark-free-vectors */
-    background-size: contain;
-    max-width: 100%;
-    overflow-x: hidden;
+}
+
+h1 {
+    color: var(--h1-color);
+    padding-bottom: 10px;
+    text-align: center;
 }
 
 /* Sites Colours */
@@ -33,25 +35,14 @@ body {
     --main-text: black;
     --accent-color: #D5283F;
     --h1-color: #001F7E;
-    
 }
 
 .custom-wrapper {
     padding-top: 5rem;    
 }
 
-#navbar {
-    background-color: #7287B9;
-}
-
 #logo {
     padding: 8px;
-}
-
-h1 {
-    color: var(--h1-color);
-    padding-bottom: 10px;
-    text-align: center;
 }
 
 /* Block dividers */
@@ -65,7 +56,15 @@ h1 {
     background-color:var(--accent-color);
     text-align: center;
 }
+/*--------------------------------- NAVBAR MEDIA QUERIES -----------------------------*/
 
+/* Mobile Devices */
+
+@media screen and (max-width: 600px){
+    #navbar {
+    width: 100%;
+}
+}
 /*--------------------------------- BANNER COLLOUT -----------------------------*/
 
 .callout-container {
@@ -82,7 +81,6 @@ h1 {
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
-
 }
 
 @keyframes hero-zoom{
@@ -98,7 +96,6 @@ h1 {
     left: 0;
     height: 100%;
     width: 100%;
-    
 }
 
 /* Jumbotron */
@@ -127,23 +124,44 @@ h1 {
     color: #ffff
 }
 
+/*--------------------------------- BANNER COLLOUT QUERIES -----------------------------*/
 
+/* Mobile Devices */
+
+@media screen and (max-width: 600px){
+    .callout-container {
+    height: 85vh;
+}
+    .jumbotron {
+        padding: 15px 10px;
+        width: 90%;
+    }
+.jumbotron h2 {
+    font-size: 2rem;
+}
+.jumbotron h3{
+    font-size: 1.5rem;
+}
+
+}
 /*--------------------------------- ABOUT -----------------------------*/
 
 #about {
-    padding: 4rem;
+    height: 100%;
+    margin: 2rem;
 }
 
 h2{
     text-align: center;
     font-style: italic;
-    font-weight: 200;
 }
 p{
     margin: 0;
+    padding: 0;
     padding-top: 22px;
     text-align: center;
-    padding-bottom: 20px;
+    font-size: 1rem;
+    
 }
 
 /*--------------------------------- TOURS -----------------------------*/
@@ -179,24 +197,28 @@ hr{
     margin: 5px 0;
 }
 .left-about-heading{
-    width: 50%;
+    width: 70%;
     float: right;
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
+    font-size: 0.8rem;
 }
 .right-about-heading{
-    width: 50%;
+    width: 70%;
     float: leftt;
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
+    font-size: 0.8rem;
 }
 .right-about-heading h2{
     text-align: right;
+    font-size: 1.2rem;
     }
 .left-about-heading h2{
     text-align: left;
+    font-size: 1.2rem;
 }
 .right-about-heading p{
     text-align: right;
@@ -233,8 +255,8 @@ hr{
 
 #tour-page {
     background-color:var(--main-bg);
-padding: 3rem;
-margin-top: 10px;
+    padding: 3rem;
+    margin-top: 2rem;
 }
 
 .box1{
@@ -257,8 +279,8 @@ margin-top: 10px;
     font-family: 'Lora', sans-serif;
     text-transform: uppercase;
     color:black;
-
 }
+
 .wrapper-loc,
 .wrapper {
     margin-left: 50px;
@@ -385,7 +407,7 @@ button:focus {
 /*--------------------------------- CONTACT -----------------------------*/
 
 #contact {
-    background-image: url(assets,img/10263.jpg)no-repeat fixed;;
+    background-image: url(assets,img/londoneye-bg.jpg)no-repeat fixed;;
     margin-top: 5rem;
 
 }
