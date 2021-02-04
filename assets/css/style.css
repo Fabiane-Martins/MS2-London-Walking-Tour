@@ -27,6 +27,7 @@ h1 {
     padding-bottom: 10px;
     text-align: center;
 }
+
 h2 {
     font-size: 1.2rem;
 }
@@ -121,7 +122,7 @@ h2 {
     color: var(--h1-color);
     font-size: 3rem;
     font-weight: bold;
-    margin-bottom 30px;
+    margin-bottom: 30px;
     text-align: center;
 }
 
@@ -141,19 +142,19 @@ h2 {
 @media screen and (max-width: 600px){
     .callout-container {
     height: 75vh;
-}
+    }
     .jumbotron {
         padding: 15px 10px;
         width: 90%;
     }
-.jumbotron h2 {
-    font-size: 2rem;
-}
-.jumbotron h3{
-    font-size: 1.5rem;
+    .jumbotron h2 {
+        font-size: 2rem;
+    }
+    .jumbotron h3{
+        font-size: 1.5rem;
+    }
 }
 
-}
 /*--------------------------------- ABOUT -----------------------------*/
 
 #about {
@@ -170,7 +171,7 @@ p{
     text-align: center;
 }
 
-/*--------------------------------- TOURS -----------------------------*/
+/*--------------------------------- TOURS YOU'VE GOT TO TRY -----------------------------*/
 
 #tours {
     background-color:var(--main-bg);
@@ -254,6 +255,41 @@ hr{
     #circle-container
     {
         display: none;
+    }
+}
+
+/*--------------------------------- TOURS YOU'VE GOT TO TRY QUERIES -----------------------------*/
+
+/* Mobile Devices */
+
+@media screen and (max-width: 600px){
+    #tour{
+    width: 85%;
+    height: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    position: relative;
+    }
+    
+    #left-about, #right-about {
+    width: 100%;
+    padding: 0;
+    justify-content: center;
+    }
+
+    .left-about-heading, .right-about-heading{
+        width: inherit;
+        text-align: center;
+    }
+
+    .left-about-heading h2, .right-about-heading h2{
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-about-heading p, .right-about-heading p{
+        text-align: center;
+        padding: 0 20px 0 20px;
     }
 }
 
@@ -455,6 +491,7 @@ footer {
 h5 {
     margin-top: 1.8rem;
     margin-left: 5px;
+    font-size: 1rem;
 }
 
 #social-links i {
