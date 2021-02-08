@@ -1,6 +1,11 @@
 # London Walking Tour
 
-## This project is about walking tour around London. The objective is to assess my webdevelopment skills, languages I'll be using will be HTML, CSS and Java Scrip. The layout of the website consist of 4 pages, initial home page containing 4 sections and 3 pages containing each individual tour, map and contact form. This project is scalable and more tours can be added in the future.
+### Summary
+
+> - The objective is to assess my webdevelopment skills. 
+> - The languages used will be HTML, CSS and Java Scrip. 
+> - The layout of the website consist of 4 pages, initial home page containing 4 sections and 3 pages containing each individual tour, map and contact form. This project is scalable and more tours can be added in the future.
+---
 
 ### Table of Contents
 
@@ -21,22 +26,25 @@
 
 ![Image](assets/img/LWT-responsive.png)
 
-### Overview
+### Project Goal 
 
-> The aim of this project is to showcase London's Hiden Gems destinations to promote walking tours around town. 
+> The aim of this project is to showcase London's Hiden Gems destinations and promote walking tours around town for both, turists or citizena.
+---
 
 #### User Stories
 
 > - _"I find myself doing the same thing in London week in week out"_
 > - _"I want to find unusual ways to enjoy the capital"_
 > - _"I want to know more of London architecture history"_
-> - _"I want to be able to locate myself on the map"-
-> - -"I want to be able to contact the provider for further queries"_
+> - _"I want to be able to locate myself on the map"_
+> - _"I want to be able to contact the provider for further queries"_
 > - _"I want to browse their social media"_
+---
 
 ### UX
 
-This website project target individuals or groups, turists or London citizen that seek to discover new places in the capital. The objective is to show in a simple and visual manner why they should take a walking tour. Contact page and social media link are important user journey features for decision making.
+> This website project target individuals or groups, turists or London citizen that seek to discover new places in the capital. The objective is to show in a simple and visual manner why they should take a walking tour. Contact page and social media link are important user journey features for decision making.
+---
 
 #### 1. Strategy
 
@@ -51,10 +59,29 @@ This website project target individuals or groups, turists or London citizen tha
 > - Social links for customer engagement.
 
 > ##### Customer Goals:
+>
+> - Designed for desktop and Mobile approach.
+> - Display interactive maps for each meet-up point.
+> - Contact form for direct email.
+> - Social Media icons in the footer.
+> - Fixed navigation bar allowing the user to easily move between pages.
+> - Download iteneraty pdf.
+---
 
 #### 2. Scope
 
+> - Provides a clean UX for users with easy navigation.
+> - Applied my current skill-set of HTML, CSS, JavaScript and API use.
+---
+
 #### 3. Structure
+
+> The main focus of the structure is to allow Users to quickly find their way around the website. page, whethter it is to contact or find more about tours location.
+> Short snipet of content on home to awaken their curiosity and not overwhelm.
+> The Tour page contain a pdf document with the tour highlighta and images. 
+> Meetup points are shown on map.
+> Contact form is avaliable from contact page via email.
+---
 
 #### 4. Skeleton
 
@@ -85,10 +112,10 @@ This website project target individuals or groups, turists or London citizen tha
 
 ### Technologies Used
 
-##### 1. Languages
+##### 1. Languages Used
 
-> ![Image](https://en.wikipedia.org/wiki/HTML5#/media/File:HTML5_logo_and_wordmark.svg) [HTML5](https://en.wikipedia.org/wiki/HTML5)
+> ![Image](asstes/img/HTML5.jpg) [HTML5](https://en.wikipedia.org/wiki/HTML5)
 >
-> ![Image](https://en.wikipedia.org/wiki/CSS#/media/File:CSS3_logo_and_wordmark.svg) [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+> ![Image](assets/img/CSS3.png) [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 >
-> ![Image](https://photos.google.com/album/AF1QipNRXK_AHH9WlODogPWthM-1WiFOlul7vpXP2G83/photo/AF1QipM9Bdqa2vGt4c3ViAR6cHuq8kf_HS06TUu7495U) [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+> ![Image](assets/img/JAVASCRIPT.jpg) [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
