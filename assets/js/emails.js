@@ -5,13 +5,13 @@
 
 function sendMail(contactForm) {
     emailjs.send("service_i152dwh","lwt_yb3bsvi",{
-    from_name: "Bia",
-    message: "me",
-    from_email: "stylistbia@gmail.com",
+    from_name: $("#fullname").val(),
+    message: $("#message").val(),
+    from_email: $("#emailaddress").val(),
 })
     .then(
         function(response) {
-            console.log("SUCCESS", response);
+            alert("Message Sent")
         },
         function(error) {
             console.log("FAILED", error);
