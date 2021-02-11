@@ -1,15 +1,17 @@
 # London Walking Tour
 
-### Summary
+[View the live project here.](https://fabiane-martins.github.io/MS2-London-Walking-Tour/index.html)
+>
+![Image](assets/img/LWT-responsive.png)
 
-> - The objective is to assess my webdevelopment skills. 
-> - The languages used will be HTML, CSS and Java Scrip. 
-> - The layout of the website consist of 4 pages, initial home page containing 4 sections and 3 pages containing each individual tour, map and contact form. This project is scalable and more tours can be added in the future.
+### Project Goal 
+
+> The aim of this project is to showcase London's Hiden destinations by promoting its walking tours around town for both, turists or citizens.
 ---
 
 ### Table of Contents
 
-> - [Overview](#overview)
+> - [Disclaimer](#disclaimer)
 > - [User Stories](#user-stories)
 > - [UX](#ux)
 > - [Features](#features)
@@ -24,44 +26,56 @@
 > - [Acknowledgments](#acknowledgments)
 > - [Support](#support)
 
-![Image](assets/img/LWT-responsive.png)
+### Disclaimer
 
-### Project Goal 
-
-> The aim of this project is to showcase London's Hiden Gems destinations and promote walking tours around town for both, turists or citizena.
+> - This is a fictious business with the  objective to assess my webdevelopment skills. 
+> - The languages used will be HTML, CSS and Java Scrip. 
+> - The website layout consist of 3 pages, home page, tour and contact page with scope to add more pages or a blog. The website also contain a Google map API and email.js.
 ---
 
 #### User Stories
 
-> - _"I find myself doing the same thing in London week in week out"_
+> ##### First Time Visitors Goals:
+>
 > - _"I want to find unusual ways to enjoy the capital"_
-> - _"I want to know more of London architecture history"_
-> - _"I want to be able to locate myself on the map"_
-> - _"I want to be able to contact the provider for further queries"_
+> - _"I want to know what would make me enjoy the tour"_
+> - _"I want to be able to see the locations on the map"_
+> - _"I want to be able to contact the provider for further question"_
 > - _"I want to browse their social media"_
----
+
+> ##### Returning Visitors Goals:
+>
+> - _"I want to see reviews"_
+> - _"I want to see the price list"_ 
+> - _"I want to find contact details"_ 
+
+> ##### Frequent Visitors Goals:
+>
+> - _"I want to find our about new tours and offers"_
+> - _"I'd love to ready a blog about things to do in London"_
+> - _"I'd love to signup to receive notification"_
+
 
 ### UX
 
-> This website project target individuals or groups, turists or London citizen that seek to discover new places in the capital. The objective is to show in a simple and visual manner why they should take a walking tour. Contact page and social media link are important user journey features for decision making.
+> The UX is clean and user-friendly providing an easy navigation between pages.
 ---
 
 #### 1. Strategy
 
-> The UX is clean and user-friendly providing an easy navigation between pages.
+> This website is targeted for individuals or groups, turists or London citizen that seek to discover new places in the capital. The objective is to show in a simple and visual manner why they should take a walking tour. 
 >
+> ##### Business Goals:
+>
+> - Showcase best tours on the homepage. 
+> - Promote our business through about us section. 
+> - Provide further information of each Tour on a designated tour page. 
+> - Build customer engament with the social media links. 
+
 > ##### Project Goals:
 >
-> - Showcase our tours on homepage. 
-> - Promoting our business through about us section. game reserves by showcasing the best they have to offer.
-> - Provide further information on the Tour page such us, directions on Google map, link to a call now and download tour pdf.
-> - Contact page for book a tour.
-> - Social links for customer engagement.
-
-> ##### Customer Goals:
->
 > - Designed for desktop and Mobile approach.
-> - Display interactive maps for each meet-up point.
+> - Display interactive maps for meet-up points.
 > - Contact form for direct email.
 > - Social Media icons in the footer.
 > - Fixed navigation bar allowing the user to easily move between pages.
@@ -72,6 +86,7 @@
 
 > - Provides a clean UX for users with easy navigation.
 > - Applied my current skill-set of HTML, CSS, JavaScript and API use.
+> - Contact page and social media link are important user journey features for decision making.
 ---
 
 #### 3. Structure
@@ -85,37 +100,69 @@
 
 #### 4. Skeleton
 
-#### 5. Surface
+> - [Wireframes](): Three-page website with 2 section on each page.
+> - Fixed navigation bar with menu heading and toggle bar for mobile devices.
+> - Home, Tour and Contact pages
+> - Footer with Social Media icons and Copyright.
+> - Google map API 
+> - Email.js
 
-> ###### Colours
+#### 5. Design
+
+> ##### Colour Scheme:
 >
-> Union Jack flag colours were chosen to fit with the image that London brings to memory due to its red bus and red phone box.
-> ![Image](assets/img/color-theme.png)
+> - The [Color palette](assets/img/color-theme.png) was chosen to bring life and accent to the website associating with London red buses, red phone box and Union Jack flag colours. 
+> 
+> ##### Typography:
 >
-> ###### Typography
+> - "Lora" font was choosed as primary font due to its balanced and comtempory look. Sans-serif font will fall-back in case any error accuer.
 >
-> - "Lora" font was choosed as primary due to its balanced and comtempory look. Sans-serif font will fall-back in case any error accuer.
+> ##### Images:
 >
-> ###### Images
+> - The images selected for the website are to showcase London's big attraction.  
+> - The pdf documents images showcase individual tour.
 >
-> The images selected for the website is to showcase London's big attraction.  
-> The pdf documents images showcase each individual tour.
+> ##### Maps:
 >
-> ###### Maps
+> - Interactive map can be accessed in two ways, from the map itself or from show on map buttom for zoomed in location. 
 >
-> Interactive map can be accessed in two ways, from the map itself or from show on map buttom for zoomed in location. 
->
-> ###### Design Choices
-> * On the intro page, I have specifically decreased the image transition rate in the image carousel, to subtly show the zebra pattern beneath momentarily between each slide. I felt that vivid and immediate image transitions would break the consistency of the ux and theme.
-> * Original layout from wireframe 'felt' different on screen to how I had first imagined it; and as a result, I decided on an alternative layout midway through the project. [Original Wireframe](https://github.com/JimLynx/CI-MS2-Safari-Africa/blob/master/assets/docs/Wireframes.pdf)
 ---
 
 ### Technologies Used
 
 ##### 1. Languages Used
 
-> ![Image](asstes/img/HTML5.jpg) [HTML5](https://en.wikipedia.org/wiki/HTML5)
+> - [HTML5](https://en.wikipedia.org/wiki/HTML5)
 >
-> ![Image](assets/img/CSS3.png) [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+> - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 >
-> ![Image](assets/img/JAVASCRIPT.jpg) [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+> - [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+
+##### 2. Integration
+
+> ![Image](https://res.cloudinary.com/jimlynx/image/upload/v1593528776/Logos/Bootstrap-50_khpj57.png) [Bootstrap](https://getbootstrap.com/) - by linking via [Bootstrap CDN](https://www.bootstrapcdn.com/) to HTML Doc.
+>
+> ![Image](https://res.cloudinary.com/jimlynx/image/upload/v1593528776/Logos/fontawesome-50_r5df5h.png) [FontAwesome](https://fontawesome.com/) Icons for Social Media links in Footer.
+>
+> ![Image](https://res.cloudinary.com/jimlynx/image/upload/v1593528776/Logos/GoogleFonts-50_mx57p6.png) [Google Fonts](https://fonts.google.com/) - Overall Typography import.
+>
+> ![Image](https://res.cloudinary.com/jimlynx/image/upload/v1600683635/Logos/jquery-50.png) [jQuery](https://jquery.com/) - JavaScript library
+>
+> ![Image](https://res.cloudinary.com/jimlynx/image/upload/v1600683868/Logos/LeafletJS-50.png) [LeafletJS](https://leafletjs.com/) - Interative Maps API
+>
+> ![Image](https://res.cloudinary.com/jimlynx/image/upload/v1600684023/Logos/rest-50.png) [REST Countries](https://restcountries.eu/) - REST Country info API  
+
+##### 3. Workspace, version control and Repository storage
+
+> [VSCode](https://code.visualstudio.com/) - Main workspace IDE (Integrated Development Environment)
+>
+> [Git](https://git-scm.com/) - Distributed Version Control tool to store versions of files and track changes.
+>
+> [GitHub](https://github.com/) - A cloud-based hosting service to manage my **Git** repositories.
+
+##### 4. Other
+
+> - [Autoprefixer](https://autoprefixer.github.io/) Parses CSS and adds vendor prefixes.
+> - [Google Mobile-Friendly Test](https://search.google.com/test/mobile-friendly) Mobile-friendly check on site.
+> - [Website Page Test](https://www.webpagetest.org/) Runs a website speed test from multiple locations around the globe using real browsers (IE and Chrome) and at real consumer connection speeds.
+> - [Online-Spellcheck](https://www.online-spellcheck.com/) Online spelling and grammar checks.
