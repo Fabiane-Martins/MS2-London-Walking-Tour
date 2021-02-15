@@ -33,7 +33,7 @@
 > - The website layout consist of 3 pages, home page, tour and contact page with scope to add more pages or a blog. The website also contain a Google map API and email.js.
 ---
 
-#### User Stories
+### User Stories
 
 > ##### First Time Visitors Goals:
 >
@@ -59,7 +59,6 @@
 ### UX
 
 > The UX is clean and user-friendly providing an easy navigation between pages.
----
 
 #### 1. Strategy
 
@@ -80,25 +79,8 @@
 > - Social Media icons in the footer.
 > - Fixed navigation bar allowing the user to easily move between pages.
 > - Download iteneraty pdf.
----
 
-#### 2. Scope
-
-> - Provides a clean UX for users with easy navigation.
-> - Applied my current skill-set of HTML, CSS, JavaScript and API use.
-> - Contact page and social media link are important user journey features for decision making.
----
-
-#### 3. Structure
-
-> The main focus of the structure is to allow Users to quickly find their way around the website. page, whethter it is to contact or find more about tours location.
-> Short snipet of content on home to awaken their curiosity and not overwhelm.
-> The Tour page contain a pdf document with the tour highlighta and images. 
-> Meetup points are shown on map.
-> Contact form is avaliable from contact page via email.
----
-
-#### 4. Skeleton
+#### 2. Skeleton
 
 > - [Wireframes](): Three-page website with 2 section on each page.
 > - Fixed navigation bar with menu heading and toggle bar for mobile devices.
@@ -107,7 +89,7 @@
 > - Google map API 
 > - Email.js
 
-#### 5. Design
+#### 3. Design
 
 > ##### Colour Scheme:
 >
@@ -126,11 +108,36 @@
 >
 > - Interactive map can be accessed in two ways, from the map itself or from show on map buttom for zoomed in location. 
 >
+> #### Wireframe
+> - [View the website wireframe.]()
+---
+
+### Features
+
+##### Existing Features
+
+> - Designed with HTML5, CSS3, JavaScript and Bootstrap.
+> - Home/Landing page with 2 sections, about and key tours with a short snipet of content to promote best tours.
+> - Fixed navigation that allow user to easily navigate, regardless of which page they visited which become responsive on mobile view with toggle buttom drop-down list.
+> - Contact page with contact form avaliable. Messages sent will be sent via EmailJS.
+> - Tour page containing more information about each tour. Links to, tour itinerary pdf, call extention and Google map pin location.
+> - Map have been added to the site so that users can get directions to the meet-up points.
+> - Footer with social media links with hover effect.
+> - Responsive design for mobile, tablet and desktop.
+
+##### Features Left to Implement when skills develop
+
+> - Add review section. This is one of the users requerement and it'll help stablish business validation. 
+> - Add blog page for more engement.
+> - Add subscribe buttom so users to get notification.
+> - I would like to add interactive animation and carousel banner.
+> - I'd like to add payment gateway to the website to imediatelly buy tours tickets.
+
 ---
 
 ### Technologies Used
 
-##### 1. Languages Used
+#### 1. Languages Used
 
 > - [HTML5](https://en.wikipedia.org/wiki/HTML5)
 >
@@ -138,21 +145,16 @@
 >
 > - [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 
-##### 2. Integration
+#### 2. Integration
 
-> ![Image](https://res.cloudinary.com/jimlynx/image/upload/v1593528776/Logos/Bootstrap-50_khpj57.png) [Bootstrap](https://getbootstrap.com/) - by linking via [Bootstrap CDN](https://www.bootstrapcdn.com/) to HTML Doc.
+> 1.[Bootstrap](https://getbootstrap.com/) - by linking via [Bootstrap CDN](https://www.bootstrapcdn.com/) to HTML Doc.
 >
-> ![Image](https://res.cloudinary.com/jimlynx/image/upload/v1593528776/Logos/fontawesome-50_r5df5h.png) [FontAwesome](https://fontawesome.com/) Icons for Social Media links in Footer.
+> 2.[FontAwesome](https://fontawesome.com/) Icons for Social Media links in Footer.
 >
-> ![Image](https://res.cloudinary.com/jimlynx/image/upload/v1593528776/Logos/GoogleFonts-50_mx57p6.png) [Google Fonts](https://fonts.google.com/) - Overall Typography import.
+> 3.[Google Fonts](https://fonts.google.com/) - Overall Typography import.
 >
-> ![Image](https://res.cloudinary.com/jimlynx/image/upload/v1600683635/Logos/jquery-50.png) [jQuery](https://jquery.com/) - JavaScript library
->
-> ![Image](https://res.cloudinary.com/jimlynx/image/upload/v1600683868/Logos/LeafletJS-50.png) [LeafletJS](https://leafletjs.com/) - Interative Maps API
->
-> ![Image](https://res.cloudinary.com/jimlynx/image/upload/v1600684023/Logos/rest-50.png) [REST Countries](https://restcountries.eu/) - REST Country info API  
 
-##### 3. Workspace, version control and Repository storage
+#### 3. Workspace, version control and Repository storage
 
 > [VSCode](https://code.visualstudio.com/) - Main workspace IDE (Integrated Development Environment)
 >
@@ -160,9 +162,40 @@
 >
 > [GitHub](https://github.com/) - A cloud-based hosting service to manage my **Git** repositories.
 
-##### 4. Other
+#### 4. Other
 
 > - [Autoprefixer](https://autoprefixer.github.io/) Parses CSS and adds vendor prefixes.
 > - [Google Mobile-Friendly Test](https://search.google.com/test/mobile-friendly) Mobile-friendly check on site.
 > - [Website Page Test](https://www.webpagetest.org/) Runs a website speed test from multiple locations around the globe using real browsers (IE and Chrome) and at real consumer connection speeds.
 > - [Online-Spellcheck](https://www.online-spellcheck.com/) Online spelling and grammar checks.
+
+### Resources
+
+> - [Code Institute Course Content](https://courses.codeinstitute.net/) - Main source of fundamental knowledge.
+> - Code Institute **SLACK Community** - Main source of assistance
+> - [Stack Overflow](https://stackoverflow.com/) - General resource.
+> - [Youtube](https://www.youtube.com/) - General resource.
+> - [CSS-Tricks](https://css-tricks.com/) - General resource.
+> - [W3.CSS](https://www.w3schools.com/w3css/4/w3.css) - General resource.
+> - [CommonMark](https://commonmark.org/help/) - For Markdown language reference.
+> - [iColorpalette](https://icolorpalette.com/imagepalette/color-palette-ideas-from-car-motor-vehicle-image-11) - Find relevant color palette for site.
+> - [TinyPNG](https://tinypng.com/) - Efficient compression of images for site.
+> - [Am I Responsive](http://ami.responsivedesign.is/) - Responsive website mockup image generator.
+> - [Balsamiq](https://balsamiq.com/wireframes/) - Wireframing design tool.
+> - [Bootstrap Grid Explanation by Anna Greaves](https://ajgreaves.github.io/bootstrap-grid-demo/) - This was an invaluable resource for me to wrap my head around Grid layouts.
+
+---
+
+### Testing
+
+> - The W3C Markup Validator and W3C CSS Validator Services were used in the project to ensure there were no syntax errors.
+> - [W3C Markup Validator](https://validator.w3.org/nu/).
+> - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/). 
+
+### Credits
+
+> ##### Media
+> - Website images from [Unsplash](https://unsplash.com/images/stock) - Credit to @aronvandepol, @jon_chng
+
+> ##### Content
+> - All content was written by me, the developer.
