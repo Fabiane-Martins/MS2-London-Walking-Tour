@@ -199,3 +199,17 @@
 
 > ##### Content
 > - All content was written by me, the developer.
+
+> ##### Code Snippet
+> - HTML main stucture was taken from my previous project [personal portfolio](https://github.com/Fabiane-Martins/personal-portfolio)
+> - Zoom-in banner and tour snipets on the home page code was taken from the Code Institute Love Running project.
+> - 
+
+### Acknolodge
+
+> I would like to thank:
+>
+> - I'll give thanks to my mentor, Oluwafemi Medale for mentoring me on the processes of designing to create this website as well as mentoring me on the best practises and tool to approach.
+> - The slack community for being tireless and efficient in aswering the many questions I've posted on the forum.
+> - To my fiancee, for all love and support in encoraging me on the many times I wanted to give up.
+> - Friends and families for the projects they have lined-up for me - this certainly helps me keep going
