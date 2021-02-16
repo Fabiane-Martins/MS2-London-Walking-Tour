@@ -16,7 +16,7 @@
 > - [UX](#ux)
 > - [Features](#features)
 > - [Technologies Used](#technologies-used)
-> - [References for learning](#references-for-learning)
+> - [Resources](#resources)
 > - [Testing](#testing)
 > - [Project barriers and solutions](#project-barriers-and-solutions)
 > - [Code validity](#code-validity)
@@ -24,7 +24,7 @@
 > - [Deployment](#deployment)
 > - [Credits](#credits)
 > - [Acknowledgments](#acknowledgments)
-> - [Support](#support)
+
 
 ### Disclaimer
 
@@ -82,7 +82,7 @@
 
 #### 2. Skeleton
 
-> - [Wireframes](): Three-page website with 2 section on each page.
+> - [Wireframes](assets/img/color-theme.png): Three-page website with 2 section on each page.
 > - Fixed navigation bar with menu heading and toggle bar for mobile devices.
 > - Home, Tour and Contact pages
 > - Footer with Social Media icons and Copyright.
@@ -172,15 +172,15 @@
 ### Resources
 
 > - [Code Institute Course Content](https://courses.codeinstitute.net/) - Main source of fundamental knowledge.
-> - Code Institute **SLACK Community** - Main source of assistance
+> - Code Institute **SLACK Community** and **TUTOR Assistance** - Main source of assistance
 > - [Stack Overflow](https://stackoverflow.com/) - General resource.
 > - [Youtube](https://www.youtube.com/) - General resource.
 > - [CSS-Tricks](https://css-tricks.com/) - General resource.
 > - [W3.CSS](https://www.w3schools.com/w3css/4/w3.css) - General resource.
 > - [CommonMark](https://commonmark.org/help/) - For Markdown language reference.
-> - [iColorpalette](https://icolorpalette.com/imagepalette/color-palette-ideas-from-car-motor-vehicle-image-11) - Find relevant color palette for site.
+> - [Coolors](https://coolors.co/) - Find relevant color palette for desing.
 > - [TinyPNG](https://tinypng.com/) - Efficient compression of images for site.
-> - [Am I Responsive](http://ami.responsivedesign.is/) - Responsive website mockup image generator.
+> - [Mockup Generator](https://techsini.com/multi-mockup/) - Responsive website mockup image generator.
 > - [Balsamiq](https://balsamiq.com/wireframes/) - Wireframing design tool.
 > - [Bootstrap Grid Explanation by Anna Greaves](https://ajgreaves.github.io/bootstrap-grid-demo/) - This was an invaluable resource for me to wrap my head around Grid layouts.
 

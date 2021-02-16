@@ -258,6 +258,14 @@ hr{
     }
 }
 
+@media (max-width: 1024px) 
+{
+    #circle-container
+    {
+        display: none;
+    }
+}
+
 /*--------------------------------- TOURS YOU'VE GOT TO TRY QUERIES -----------------------------*/
 
 /* Mobile Devices */
@@ -268,6 +276,40 @@ hr{
     height: 1200px;
     margin: 0 auto;
     padding: 15px;
+    position: relative;
+    }
+    
+    #left-about, #right-about {
+    width: 100%;
+    padding: 0;
+    justify-content: center;
+    }
+
+    .left-about-heading, .right-about-heading{
+        width: inherit;
+        text-align: center;
+    }
+
+    .left-about-heading h2, .right-about-heading h2{
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-about-heading p, .right-about-heading p{
+        text-align: center;
+        padding: 0 20px 0 20px;
+    }
+}
+
+/* Tablet Devices */
+
+@media screen and (max-width: 1024px){
+    #tour{
+    width: 85%;
+    height: 1200px;
+    margin: 0 auto;
+    padding-right: 25px
+    padding-left: 25px;
     position: relative;
     }
     
