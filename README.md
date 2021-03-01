@@ -51,7 +51,7 @@
 
 > ##### Frequent Visitors Goals:
 >
-> - _"I want to find our about new tours and offers"_
+> - _"I want to find out about new tours and offers"_
 > - _"I'd love to ready a blog about things to do in London"_
 > - _"I'd love to signup to receive notification"_
 
@@ -73,7 +73,7 @@
 
 > ##### Project Goals:
 >
-> - Designed for desktop and Mobile approach.
+> - Designed for desktop and mobile approach.
 > - Display interactive maps for meet-up points.
 > - Contact form for direct email.
 > - Social Media icons in the footer.
@@ -97,12 +97,12 @@
 > 
 > ##### Typography:
 >
-> - "Lora" font was choosed as primary font due to its balanced and comtempory look. Sans-serif font will fall-back in case any error accuer.
+> - "Lora" font was choosen as primary font due to its balanced and comtempory look. Sans-serif font will fall-back in case any error accuer.
 >
 > ##### Images:
 >
 > - The images selected for the website are to showcase London's big attraction.  
-> - The pdf documents images showcase individual tour.
+> - The pdf documents images showcase individual tours.
 >
 > ##### Maps:
 >
@@ -127,11 +127,11 @@
 
 ##### Features Left to Implement when skills develop
 
-> - Add review section. This is one of the users requerement and it'll help stablish business validation. 
-> - Add blog page for more engement.
-> - Add subscribe buttom so users to get notification.
-> - I would like to add interactive animation and carousel banner.
-> - I'd like to add payment gateway to the website to imediatelly buy tours tickets.
+> - Add review section. This is one of the users most import requerement and it'll also help stablish the business validation. 
+> - Add blog page for more content, engement and on page SEO.
+> - Add subscribe buttom for users to get notification and news letter.
+> - I would like to add interactive animation and carousel image banner.
+> - I'd like to add a payment gateway to the website to imediatelly purchase tours tickets.
 
 ---
 
