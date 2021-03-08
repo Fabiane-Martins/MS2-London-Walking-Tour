@@ -10,7 +10,7 @@ function initMap() {
             });
             var labels = "ABCDEFGHIJKLMONPQRSTUVWXYZ";
 
-    var locations = [{ '<h6 class="popup-header">DICKENS LONDON LIFE</h6>':
+    var locations = [{
                 lat: 51.5205538,
                 lng: -0.1082319
             }, {
