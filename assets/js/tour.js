@@ -45,17 +45,5 @@ function initMap() {
             });  
         }
 
-//Pop up an infowindow after clicking on marker
-google.maps.event.addListener(marker, 'click', (function (marker, count) {
-    return function () {
-        infowindow.setContent(locations[count][0]);
-        infowindow.open(map, marker);
-    }
-    })(marker, count));
-}
-map.fitBounds(bounds);
-
-}
-
 
 
