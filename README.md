@@ -189,8 +189,16 @@
 ### Testing
 
 > - The W3C Markup Validator and W3C CSS Validator Services were used in the project to ensure there were no syntax errors.
-> - [W3C Markup Validator](https://validator.w3.org/nu/).
-> - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/). 
+> - [W3C Markup Validator](https://validator.w3.org/nu/) no error found.
+> - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) recived 7 error messages for unappropriate use of css style - which have now been fixed.
+
+#### Manual testing of elements and functions.
+
+#### 1. Navigation Bar:
+> - Hover over the logo name to ensure it is linked to the home page.
+> - Click on the logo to make sure that is links to the home page.
+> - Click all the navbar items to ensure they work and lead to the correct pages.
+
 
 ### Credits
 
