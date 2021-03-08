@@ -81,6 +81,9 @@ h2 {
 .callout-container {
     height: 80vh;
     background: url('../img/cmp-banner.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 
     display: flex;
@@ -88,10 +91,6 @@ h2 {
     justify-content: center;
 
     position: relative;
-
-    animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
 }
 
 @keyframes hero-zoom{
