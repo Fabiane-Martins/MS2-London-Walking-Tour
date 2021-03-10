@@ -27,7 +27,7 @@ function initMap() {
 
         let infowindow = new google.maps.InfoWindow({});
 
-    //Add markers on map according the information in locations array
+//Add markers on map according the information in locations array
 
     var markers = locations.map(function (location, i) {
         return new google.maps.Marker({
@@ -40,7 +40,7 @@ function initMap() {
         imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
     });
 
-    //Zoom a location by clicking on external button
+//Zoom a location by clicking on external button
 
     $(".location-button").click(function () {
         map.setCenter(new google.maps.LatLng(this.dataset.lat, this.dataset.lng));
@@ -48,5 +48,15 @@ function initMap() {
     });
 }
 
+//Pop up an infowindow after clicking on marker
+google.maps.event.addListener(marker, 'click', (function (marker, count) {
+    return function () {
+        infowindow.setContent(locations[count][0]);
+        infowindow.open(map, marker);
+    }
+    })(marker, count));
+}
+map.fitBounds(bounds);
 
+}
 
