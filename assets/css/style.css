@@ -65,16 +65,28 @@ h2 {
 /* Mobile Devices */
 
 @media screen and (max-width: 600px){
-    #navbar {
-    width: 100%;
-    }
-}
-
-@media screen and (max-width: 600px){
     body {
     width: 100%;
     }
+    #navbar {
+    width: 100%;
+    }
+    .callout-container {
+    height: 75vh;
+    background: url('../img/cmp-banner.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
 }
+}
+
 
 /*--------------------------------- BANNER COLLOUT -----------------------------*/
 
@@ -93,12 +105,7 @@ h2 {
     position: relative;
 }
 
-@keyframes hero-zoom{
-    from{transform: scale(1)
-    }
-    to{transform: scale(1.1)
-    }
-    }
+
 
 .opaque-overlay {
     position: absolute;
