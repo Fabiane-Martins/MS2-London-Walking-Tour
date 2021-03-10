@@ -524,7 +524,6 @@ button:focus {
 
 @media screen and (max-width: 600px){
     #tour-page {
-        margin: 0;
         padding: 15px;
         width: 100%;
     }
